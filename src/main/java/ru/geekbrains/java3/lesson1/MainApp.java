@@ -14,7 +14,8 @@ public class MainApp {
         Box<Apple> b3 =new Box<>(new Apple());
         System.out.println(b1.compare(b2));
         b2.transfer(b3);
-        
+        System.out.println(b2.getWeight());
+        System.out.println(b3.getWeight());
 
 
 
